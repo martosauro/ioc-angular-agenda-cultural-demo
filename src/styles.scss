@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* (Exercici 5) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #245bff;
+  outline-offset: 2px;
+}

@@ -1,59 +1,19 @@
-# IocAngularAgendaCulturalDemo
+# IOC Angular Agenda Cultural - Tallers de Cuina i Catas de Vi
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.5.
+Projecte desenvolupat per a l'EAC2 de Programació Avançada amb Angular (Curs 2026-2027 / 1r semestre).
 
-## Development server
+## Informació Tècnica i Versions
+- **Node.js**: v24.x LTS
+- **Angular CLI**: v22.x
+- **Angular**: v22.x (Components standalone)
+- **Branca de treball**: `ra2-components`
 
-To start a local development server, run:
+## Components Creats
+1. **CookingListComponent** (`src/app/components/cooking-list/`): Component principal que gestiona el llistat, filtres, comptador i panell de detall.
+2. **CookingCardComponent** (`src/app/components/cooking-card/`): Targeta individual per mostrar cada taller o cata mitjançant `@Input` i `@Output`.
+3. **CookingBadgeComponent** (`src/app/components/cooking-badge/`): Subcomponent d'etiqueta / categoria amb estils personalitzats.
+4. **CookingFilterComponent** (`src/app/components/cooking-filter/`): Formulari de filtres basat en `FormsModule` i `[(ngModel)]` amb validacions.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Comandes d'Instal·lació i Execució
+- Instal·lar dependències: `npm install`
+- Executar el projecte en desenvolupament: `ng serve`
