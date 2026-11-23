@@ -16,6 +16,7 @@ import { CookingBadgeComponent } from '../cooking-badge/cooking-badge.component'
       <p class="description">{{ item.description }}</p>
       <div class="card-footer">
         <span class="date">📅 {{ item.date }}</span>
+        <span class="location">📍 {{ item.location }}</span>
         <span class="price">💶 {{ item.price }} €</span>
       </div>
     </div>
@@ -37,13 +38,16 @@ import { CookingBadgeComponent } from '../cooking-badge/cooking-badge.component'
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+      gap: 8px;
       margin-bottom: 8px;
     }
     h3 { margin: 0; font-size: 1.1rem; color: #0f172a; }
     .description { color: #475569; font-size: 0.95rem; margin-bottom: 12px; }
     .card-footer {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
+      gap: 8px;
       font-size: 0.85rem;
       color: #64748b;
     }

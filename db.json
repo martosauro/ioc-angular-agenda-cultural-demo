@@ -1,0 +1,114 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "event_title": "  Iniciació al Món del Vi i Tasts  ",
+      "event_desc": "Aprèn a diferenciar aromes, cossos i maridatges bàsics de vins catalans.",
+      "event_type": "cata",
+      "event_date": "2026-05-12",
+      "event_location": "Barcelona",
+      "price_eur": "35",
+      "is_featured": true
+    },
+    {
+      "id": "2",
+      "event_title": "Taller de Pasta Fresca Artesana",
+      "event_desc": "Elabora des de zero tagliatelle i raviolis farcits amb salsa casolana.",
+      "event_type": "taller",
+      "event_date": "2026-05-18",
+      "event_location": "Girona",
+      "price_eur": 45,
+      "is_featured": false
+    },
+    {
+      "id": "3",
+      "event_title": "  Cata Magistral de Vins Negres",
+      "event_desc": "Descobreix criances i reserves exclusius de denominacions d'origen locals.",
+      "event_type": "CATA",
+      "event_date": "2026-05-25",
+      "event_location": "Vilafranca del Penedès",
+      "price_eur": "50",
+      "is_featured": true
+    },
+    {
+      "id": "4",
+      "event_title": "Showcooking de Cuina Japonesa",
+      "event_desc": "Demostració en directe de talls de peix i elaboració de sushi professional.",
+      "event_type": "showcooking",
+      "event_date": "2026-06-02",
+      "event_location": "Barcelona",
+      "price_eur": 40,
+      "is_featured": false
+    },
+    {
+      "id": "5",
+      "event_title": "Masterclass de Rebosteria i Pastisseria",
+      "event_desc": "Tècniques avançades per aconseguir un pa de pessic esponjós i cremes perfectes.",
+      "event_type": "masterclass",
+      "event_date": "2026-06-10",
+      "event_location": "Terrassa",
+      "price_eur": "60",
+      "is_featured": true
+    },
+    {
+      "id": "6",
+      "event_title": "Taller de Cuina Vegetal i Saludable",
+      "event_desc": "Plats creatius, nutritius i plens de color utilitzant productes de temporada.",
+      "event_type": "taller",
+      "event_date": "2026-06-15",
+      "event_location": "",
+      "price_eur": 30,
+      "is_featured": false
+    },
+    {
+      "id": "7",
+      "event_title": "Cata Maridatge de Vins i Formatges",
+      "event_desc": "Una experiència sensorial combinant 5 tipus de formatges amb vins seleccionats.",
+      "event_type": "cata",
+      "event_date": "2026-06-22",
+      "event_location": "Vic",
+      "price_eur": 45,
+      "is_featured": true
+    },
+    {
+      "id": "8",
+      "event_title": "Showcooking d'Arrossos de la Terra",
+      "event_desc": "Trucs i secrets per clavar un arròs caldós i un senyoret de la costa.",
+      "event_type": "showcooking",
+      "event_date": "2026-06-28",
+      "event_location": "Tarragona",
+      "price_eur": "38",
+      "is_featured": false
+    },
+    {
+      "id": "9",
+      "event_title": "Taller de Cocteleria i Destil·lats",
+      "event_desc": "Aprèn a preparar còctels clàssics i innovadors amb tècniques de mixologia.",
+      "event_type": "taller",
+      "event_date": "2026-07-04",
+      "event_location": "Sabadell",
+      "price_eur": 40,
+      "is_featured": false
+    },
+    {
+      "id": "10",
+      "event_title": "Masterclass d'Alta cuina a casa",
+      "event_desc": "Plats d'estel Michelin simplificats per sorprendre els teus convidats.",
+      "event_type": "masterclass",
+      "event_date": "2026-07-12",
+      "event_location": "Barcelona",
+      "price_eur": 75,
+      "is_featured": true
+    },
+    {
+      "event_title": "Cata de Caves Artesans",
+      "event_desc": "Tast de caves del Penedès amb maridatge",
+      "event_type": "cata",
+      "event_date": "2026-07-20",
+      "event_location": "Terrassa",
+      "price_eur": 30,
+      "is_featured": false,
+      "id": "zBS1uqNuY8E"
+    }
+  ]
+}
